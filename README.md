@@ -4,7 +4,7 @@ A collection of beautifully curated luxury items that you can wear, style, and s
 
 ## About the Project
 
-Visit https://malobe.online to view the documentation.
+Visit https://malebo.online to view the documentation.
 
 ## License
 
