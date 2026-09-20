@@ -1,0 +1,58 @@
+/* Buttons */
+.btn-primary,
+.btn-blue,
+.btn-link {
+  display: inline-block;
+  text-decoration: none;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  border: none;
+  font-family: inherit;
+}
+
+.btn-primary {
+  background-color: var(--color-white);
+  color: var(--color-black);
+  padding: 12px 28px;
+  border-radius: 30px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.btn-primary:hover {
+  background-color: #e0e0e0;
+}
+
+.btn-blue {
+  background-color: var(--color-accent-blue);
+  color: var(--color-white);
+  padding: 8px 16px;
+  border-radius: 20px;
+  font-size: 12px;
+}
+
+.btn-blue:hover {
+  background-color: var(--color-accent-blue-dark);
+}
+
+.btn-link {
+  color: var(--color-accent-blue-light);
+  font-size: 15px;
+}
+
+.btn-link:hover {
+  text-decoration: underline;
+}
+
+/* Mobile adjustments for buttons */
+@media (max-width: 767px) {
+  .btn-primary {
+    font-size: 11px;
+    padding: 8px 16px;
+  }
+
+  .btn-link {
+    font-size: 12px;
+  }
+}

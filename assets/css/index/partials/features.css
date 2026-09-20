@@ -1,0 +1,147 @@
+/* Features Grid Section */
+.bento-section {
+  padding: 20px 36px;
+  width: 100%;
+  box-sizing: border-box;
+  font-family: var(--font-family-base);
+}
+
+.bento-header {
+  margin-bottom: 30px;
+}
+
+.bento-header h2 {
+  font-size: 32px;
+  font-weight: 600;
+  color: var(--color-text-primary);
+  margin: 0;
+}
+
+.bento-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.bento-card {
+  background-color: var(--color-bg-tertiary);
+  border-radius: 36px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  overflow: hidden;
+  min-height: 600px;
+  transition: transform 0.3s ease;
+  color: var(--color-text-primary);
+}
+
+.bento-card:hover {
+  transform: scale(1.02);
+}
+
+.bento-eyebrow {
+  font-size: 13px;
+  font-weight: 600;
+  margin: 0 0 10px;
+  color: var(--color-text-primary);
+}
+
+.bento-title {
+  font-size: 26px;
+  font-weight: 600;
+  line-height: 1.15;
+  margin: 0 0 15px;
+  letter-spacing: -0.5px;
+}
+
+.bento-desc {
+  font-size: 14px;
+  color: var(--color-text-secondary);
+  line-height: 1.4;
+  margin: 0;
+}
+
+.bento-plus {
+  display: none;
+}
+
+.bento-icon-center {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--color-text-primary);
+  overflow: hidden;
+}
+
+.bento-icon-center svg {
+  width: 80px;
+  height: 80px;
+  stroke-width: 1px;
+}
+
+.bento-icon-center img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
+.image-bg-card {
+  padding: 20px;
+  overflow: hidden;
+}
+
+.image-bg-card .bento-eyebrow,
+.image-bg-card .bento-title {
+  position: relative;
+  z-index: 2;
+  color: var(--color-text-primary);
+}
+
+.image-bg-card .bento-plus {
+  position: absolute;
+  bottom: 25px;
+  right: 25px;
+  z-index: 3;
+}
+
+.image-bg-card .bento-icon-center {
+  position: relative;
+  flex: 1;
+  width: calc(100% + 60px); /* bleed past 30px desktop padding */
+  margin-left: -30px;
+  margin-right: -30px;
+  margin-bottom: -30px;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.image-bg-card .bento-icon-center img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  object-position: center bottom;
+  display: block;
+}
+
+@media (max-width: 1024px) {
+  .bento-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 767px) {
+  .bento-grid {
+    gap: 15px;
+  }
+  .bento-card {
+    padding: 20px;
+    min-height: 380px;
+    border-radius: 28px;
+  }
+  .bento-title {
+    font-size: 20px;
+    margin: 0 0 10px;
+  }
+}

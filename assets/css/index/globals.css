@@ -1,0 +1,53 @@
+@import 'partials/components.css';
+@import 'partials/nav.css';
+@import 'partials/hero.css';
+@import 'partials/carousel.css';
+@import 'partials/features.css';
+@import 'partials/tailoring.css';
+@import 'partials/manifesto.css';
+@import 'partials/footer.css';
+
+:root {
+  /* Colors */
+  --color-black: #2a2825; /* Warm dark gray/black */
+  --color-white: #faf9f6; /* Off-white / Cream */
+
+  /* Text Colors */
+  --color-text-primary: #2a2825;
+  --color-text-secondary: #847f75;
+  --color-text-muted: #6e6c67;
+  --color-text-light: #b3b0a8;
+
+  /* Backgrounds */
+  --color-bg-primary: #faf9f6; /* Alabaster / Cream background */
+  --color-bg-secondary: #f2f0ea; /* Light beige for sections */
+  --color-bg-tertiary: #ebe8e0; /* Deeper warm gray-beige for cards */
+
+  /* Accents */
+  --color-accent-blue: #0071e3;
+  --color-accent-blue-light: #2997ff;
+  --color-accent-blue-dark: #0077ed;
+
+  /* Typography */
+  --font-family-base:
+    -apple-system, BlinkMacSystemFont, 'Helvetica Neue', 'Segoe UI', Roboto,
+    sans-serif;
+  --font-family-alt: 'Montserrat', sans-serif;
+
+  /* Layout */
+  --nav-height: 42px;
+  --banner-height: 32px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--font-family-base);
+  background-color: var(--color-bg-primary);
+  color: var(--color-text-primary);
+  padding-top: 74px; /* Space for the fixed header (nav + banner) */
+}

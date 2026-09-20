@@ -1,0 +1,146 @@
+.product-slider-section {
+  width: 100%;
+  padding: 0;
+  margin-bottom: 40px;
+}
+
+.carousel-header {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  padding: 0 36px;
+  margin-bottom: 20px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.carousel-header h2 {
+  font-size: 36px;
+  font-weight: 600;
+  color: var(--color-text-primary);
+  margin: 0;
+}
+
+.carousel-desc {
+  font-size: 14px;
+  color: var(--color-text-secondary);
+  margin-top: 5px;
+  max-width: 800px;
+  line-height: 1.5;
+}
+
+.carousel-link {
+  font-size: 14px;
+  color: var(--color-accent-blue);
+  text-decoration: none;
+}
+
+.carousel-link:hover {
+  text-decoration: underline;
+}
+
+.carousel-wrapper {
+  position: relative;
+  width: 100%;
+}
+
+.product-slider {
+  display: flex;
+  gap: 2px;
+  padding: 0 36px;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  scroll-snap-type: x mandatory;
+  scroll-padding-left: 36px;
+}
+
+.product-slider::-webkit-scrollbar {
+  display: none;
+}
+
+.product-card {
+  flex: 0 0 calc(25% - 1.5px);
+  max-width: calc(25% - 1.5px);
+  scroll-snap-align: start;
+}
+
+.product-image-container {
+  position: relative;
+  width: 100%;
+}
+
+.product-img {
+  width: 100%;
+  aspect-ratio: 3/4;
+  object-fit: contain;
+  background-color: var(--color-bg-secondary);
+  display: block;
+}
+
+.badge {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-white);
+  color: var(--color-black);
+  padding: 8px 12px;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  z-index: 10;
+}
+
+.product-info {
+  padding-top: 15px;
+  padding-left: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.product-title {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--color-text-primary);
+  margin: 0;
+}
+
+.product-price {
+  font-size: 14px;
+  color: var(--color-text-secondary);
+  margin: 0;
+}
+
+.carousel-cta {
+  display: flex;
+  gap: 15px;
+  margin-top: 10px;
+  align-items: center;
+}
+
+@media (max-width: 1024px) {
+  .product-card {
+    flex: 0 0 calc(33.333% - 1.33px);
+    max-width: calc(33.333% - 1.33px);
+  }
+}
+
+@media (max-width: 767px) {
+  .carousel-header h2 {
+    font-size: 28px;
+  }
+  .product-card {
+    flex: 0 0 calc(50% - 1px);
+    max-width: calc(50% - 1px);
+  }
+}
+
+@media (max-width: 480px) {
+  .product-card {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+}

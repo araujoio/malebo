@@ -1,0 +1,143 @@
+/* Section Container */
+.brand-manifesto {
+  width: 100%;
+  margin-bottom: 40px;
+}
+
+.manifesto-header {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  padding: 0 36px;
+  margin-bottom: 20px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.manifesto-header h2 {
+  font-size: 36px;
+  font-weight: 600;
+  color: var(--color-text-primary);
+  margin: 0;
+}
+
+.manifesto-desc {
+  font-size: 14px;
+  color: var(--color-text-secondary);
+  margin-top: 5px;
+  max-width: 800px;
+  line-height: 1.5;
+}
+
+.manifesto-carousel {
+  display: flex;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch;
+  gap: 0;
+  padding: 20px 0;
+}
+
+.manifesto-card {
+  flex: 0 0 85%;
+  scroll-snap-align: start;
+  position: relative;
+  color: var(--color-white);
+  text-align: left;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+.manifesto-bg-img {
+  display: block;
+  width: 100%;
+  object-fit: cover;
+  height: 600px;
+  filter: brightness(0.45);
+}
+
+.manifesto-content {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  padding: 40px 76px;
+}
+
+.manifesto-text {
+  max-width: 680px;
+}
+
+.manifesto-text h2 {
+  font-size: 56px;
+  font-weight: 600;
+  letter-spacing: -1px;
+  line-height: 1.1;
+  margin-bottom: 5px;
+  color: var(--color-white);
+}
+
+.manifesto-subtitle {
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: var(--color-white);
+}
+
+.manifesto-text p {
+  font-size: 18px;
+  line-height: 1.7;
+  color: rgba(255, 255, 255, 0.72);
+  margin-bottom: 0;
+}
+
+.manifesto-link {
+  display: inline-block;
+  background-color: var(--color-accent-blue);
+  color: var(--color-white);
+  padding: 6px 16px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-size: 12px;
+  font-weight: 500;
+  margin-bottom: 10px;
+  transition: background-color 0.3s;
+}
+
+.manifesto-link:hover {
+  background-color: var(--color-accent-blue-dark);
+}
+
+/* Mobile adjustments (phones) */
+@media (max-width: 767px) {
+  .manifesto-header h2 {
+    font-size: 28px;
+  }
+
+  .manifesto-card {
+    flex: 0 0 90%;
+  }
+
+  .manifesto-bg-img {
+    height: 280px;
+  }
+
+  .manifesto-content {
+    padding: 24px 20px;
+    align-items: flex-end;
+  }
+
+  .manifesto-text h2 {
+    font-size: 28px;
+    margin-bottom: 5px;
+  }
+
+  .manifesto-subtitle {
+    font-size: 12px;
+  }
+
+  .manifesto-text p {
+    font-size: 16px;
+  }
+}
