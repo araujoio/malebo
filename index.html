@@ -3,8 +3,336 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Malebo Store</title>
+    <title>Malebo Store | Home</title>
     <link rel="icon" type="image/x-icon" href="favicon.ico" />
+    <link rel="stylesheet" href="assets/css/index/globals.css" />
+    <script src="https://unpkg.com/lucide@latest"></script>
   </head>
-  <body></body>
+  <body>
+    <header>
+      <nav class="navbar">
+        <ul class="nav-links">
+          <li>
+            <a href="index.html"
+              ><img src="assets/imgs/brand.png" alt="Malebo brand"
+            /></a>
+          </li>
+          <li><a href="pages/about.html">About</a></li>
+          <li><a href="pages/glasses.html">Smart Glasses</a></li>
+          <li><a href="pages/tailoring.html">Tailoring</a></li>
+        </ul>
+        <div class="nav-icons">
+          <a href="#"><i data-lucide="search"></i></a>
+          <a href="#"><i data-lucide="user"></i></a>
+          <a href="#"><i data-lucide="shopping-bag"></i></a>
+        </div>
+      </nav>
+      <div class="alert-banner">
+        Shop online and get free shipping on orders over $500.
+      </div>
+    </header>
+
+    <main>
+      <!-- Hero Banner Section -->
+      <section class="hero-banner">
+        <div class="hero-image-wrapper">
+          <div class="brand-tagline">A clear vision,</div>
+          <img
+            src="assets/imgs/banner/banner-man.png"
+            alt="Man wearing Malebo glasses"
+          />
+        </div>
+        <div class="banner-text">
+          <div class="banner-content">
+            <h2>crafted with timeless elegance,</h2>
+          </div>
+        </div>
+      </section>
+
+      <section class="secondary-banner">
+        <div class="secondary-banner-text">
+          <div class="banner-content">
+            <h2>designed to frame your world,</h2>
+          </div>
+        </div>
+        <div class="secondary-image-wrapper">
+          <div class="secondary-brand-tagline">for those who see beyond.</div>
+          <img
+            src="assets/imgs/banner/banner-woman.png"
+            alt="Woman wearing Malebo glasses"
+          />
+        </div>
+      </section>
+
+      <!-- Carousel Section -->
+      <section class="product-slider-section">
+        <div class="carousel-header">
+          <h2>Featured Highlights.</h2>
+          <a href="pages/glasses.html" class="carousel-link"
+            >Shop all new arrivals &gt;</a
+          >
+        </div>
+        <div class="carousel-wrapper">
+          <div class="product-slider">
+            <!-- Card 1 -->
+            <div class="product-card">
+              <div class="product-image-container">
+                <span class="badge">NEW IN</span>
+                <img
+                  class="product-img"
+                  src="assets/imgs/highlights/glasses-03.png"
+                  alt="Malebo Eyewear"
+                />
+              </div>
+              <div class="product-info">
+                <h3 class="product-title">Malebo Obsidian Shades</h3>
+                <p class="product-price">$ 299.00</p>
+                <div class="carousel-cta">
+                  <button class="btn-blue">Buy</button>
+                  <a href="#" class="btn-link">Learn more &gt;</a>
+                </div>
+              </div>
+            </div>
+            <!-- Card 2 -->
+            <div class="product-card">
+              <div class="product-image-container">
+                <span class="badge">NEW IN</span>
+                <img
+                  class="product-img"
+                  src="assets/imgs/highlights/glasses-02.png"
+                  alt="Malebo Watch"
+                />
+              </div>
+              <div class="product-info">
+                <h3 class="product-title">Malebo Tortoise Classic</h3>
+                <p class="product-price">$ 249.00</p>
+                <div class="carousel-cta">
+                  <button class="btn-blue">Buy</button>
+                  <a href="#" class="btn-link">Learn more &gt;</a>
+                </div>
+              </div>
+            </div>
+            <!-- Card 3 -->
+            <div class="product-card">
+              <div class="product-image-container">
+                <span class="badge">NEW IN</span>
+                <img
+                  class="product-img"
+                  src="assets/imgs/highlights/glasses-01.png"
+                  alt="Malebo Leather Wallet"
+                />
+              </div>
+              <div class="product-info">
+                <h3 class="product-title">Malebo Aviator Gold</h3>
+                <p class="product-price">$ 329.00</p>
+                <div class="carousel-cta">
+                  <button class="btn-blue">Buy</button>
+                  <a href="#" class="btn-link">Learn more &gt;</a>
+                </div>
+              </div>
+            </div>
+            <!-- Card 4 -->
+            <div class="product-card">
+              <div class="product-image-container">
+                <span class="badge">NEW IN</span>
+                <img
+                  class="product-img"
+                  src="assets/imgs/highlights/glasses-04.png"
+                  alt="Malebo Cologne"
+                />
+              </div>
+              <div class="product-info">
+                <h3 class="product-title">Malebo Clear Frame Modern</h3>
+                <p class="product-price">$ 279.00</p>
+                <div class="carousel-cta">
+                  <button class="btn-blue">Buy</button>
+                  <a href="#" class="btn-link">Learn more &gt;</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Bento Grid Section -->
+      <section class="bento-section">
+        <div class="bento-header">
+          <h2>Crafted for those who know the difference.</h2>
+        </div>
+        <div class="bento-grid">
+          <!-- Card 1 -->
+          <div class="bento-card image-bg-card">
+            <p class="bento-eyebrow">Materials</p>
+            <h3 class="bento-title">Italian acetate. Japanese titanium.</h3>
+            <div class="bento-icon-center">
+              <img
+                src="assets/imgs/bento-grid/card-01.png"
+                alt="Premium Materials"
+              />
+            </div>
+          </div>
+          <!-- Card 2 -->
+          <div class="bento-card">
+            <p class="bento-eyebrow">Lenses</p>
+            <h3 class="bento-title">See the world in a different light.</h3>
+            <div class="bento-icon-center">
+              <img src="assets/imgs/bento-grid/card-02.png" alt="Lenses" />
+            </div>
+          </div>
+          <!-- Card 3 -->
+          <div class="bento-card image-bg-card">
+            <p class="bento-eyebrow">Exclusivity</p>
+            <h3 class="bento-title">Limited editions. Never mass-produced.</h3>
+            <div class="bento-icon-center">
+              <img
+                src="assets/imgs/bento-grid/card-03.png"
+                alt="Exclusive Frames"
+              />
+            </div>
+          </div>
+          <!-- Card 4 -->
+          <div class="bento-card image-bg-card">
+            <p class="bento-eyebrow">Fit</p>
+            <h3 class="bento-title">Engineered to feel like a second skin.</h3>
+            <div class="bento-icon-center">
+              <img src="assets/imgs/bento-grid/card-04.png" alt="Fit" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Tailoring Section -->
+      <section class="tailoring-section">
+        <div class="tailoring-image-wrapper">
+          <img
+            src="assets/imgs/suits/tailoring-suit.png"
+            alt="Malebo Tailored Suit"
+          />
+        </div>
+        <div class="tailoring-content">
+          <h2>Malebo Tailoring.</h2>
+          <p>
+            Beyond cutting-edge technology, discover our heritage. Explore our
+            exclusive collection of designer suits, where impeccable fit meets
+            timeless sartorial elegance.
+          </p>
+          <div class="tailoring-cta">
+            <button class="btn-blue">Explore suits</button>
+            <a href="#" class="btn-link">Book a fitting &gt;</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- Brand Manifesto Section -->
+      <section class="brand-manifesto">
+        <div class="manifesto-header">
+          <h2>Our Roots.</h2>
+          <p class="manifesto-desc">
+            Founded in Amsterdam, Malebo represents the pinnacle of premium
+            eyewear and sartorial elegance. We blend timeless design with modern
+            innovation, connecting our heritage with a global vision.
+          </p>
+        </div>
+
+        <div class="manifesto-carousel">
+          <!-- Card 1 -->
+          <div class="manifesto-card">
+            <img
+              class="manifesto-bg-img"
+              src="assets/imgs/manifesto/amsterdam.png"
+              alt="Amsterdam — Malebo"
+            />
+            <div class="manifesto-content">
+              <div class="manifesto-text">
+                <h2>Where we are</h2>
+                <div class="manifesto-subtitle">
+                  <strong>2026 AMSTERDAM</strong>
+                </div>
+              </div>
+              <a href="pages/about.html" class="manifesto-link"
+                >Discover Our Story</a
+              >
+            </div>
+          </div>
+
+          <!-- Card 2 -->
+          <div class="manifesto-card">
+            <img
+              class="manifesto-bg-img"
+              src="assets/imgs/manifesto/london.png"
+              alt="London — Malebo"
+            />
+            <div class="manifesto-content">
+              <div class="manifesto-text">
+                <h2>Where we're going</h2>
+                <div class="manifesto-subtitle">
+                  <strong>2027 LONDON</strong>
+                </div>
+              </div>
+              <a href="pages/about.html" class="manifesto-link">Learn More</a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-main">
+        <div class="footer-nav">
+          <div class="footer-links">
+            <div class="footer-col">
+              <h4>Support</h4>
+              <ul>
+                <li><a href="#">Contact Us</a></li>
+                <li><a href="#">Track Order</a></li>
+                <li><a href="#">Delivery & Returns</a></li>
+                <li><a href="#">FAQ</a></li>
+              </ul>
+            </div>
+            <div class="footer-col">
+              <h4>Malebo</h4>
+              <ul>
+                <li><a href="#">Our Mission</a></li>
+                <li><a href="#">Our Technology</a></li>
+                <li><a href="#">Careers</a></li>
+                <li><a href="#">Reviews</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer-newsletter">
+          <h4>JOIN US</h4>
+          <p>
+            At Malebo, we develop high-performance audio eyewear ensuring both
+            efficacy and sensoriality.
+          </p>
+          <form class="newsletter-form">
+            <input type="email" placeholder="EMAIL" required />
+            <button type="submit">SUBSCRIBE</button>
+          </form>
+        </div>
+      </div>
+
+      <div class="footer-brand">
+        <h1>MALEBO</h1>
+      </div>
+
+      <div class="footer-bottom">
+        <p class="footer-copyright">
+          Copyright &copy; 2026 Malebo Inc. All rights reserved. Malebo Eyewear
+          Brazil Ltd.
+        </p>
+        <ul class="legal-links">
+          <li><a href="#">Terms of Service |</a></li>
+          <li><a href="#">Cookies |</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+        </ul>
+      </div>
+    </footer>
+
+    <script>
+      lucide.createIcons();
+    </script>
+  </body>
 </html>
