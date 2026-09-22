@@ -3,9 +3,75 @@
 @import 'partials/hero.css';
 @import 'partials/carousel.css';
 @import 'partials/features.css';
-@import 'partials/tailoring.css';
+@import 'partials/social-proof.css';
+@import 'partials/banner-video.css';
 @import 'partials/manifesto.css';
 @import 'partials/footer.css';
+
+/* Local Fonts */
+@font-face {
+  font-family: 'Inter';
+  src: url('../../fonts/inter-400.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('../../fonts/inter-500.woff2') format('woff2');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('../../fonts/inter-600.woff2') format('woff2');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('../../fonts/montserrat-400.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('../../fonts/montserrat-500.woff2') format('woff2');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('../../fonts/montserrat-600.woff2') format('woff2');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Playfair Display';
+  src: url('../../fonts/playfair-400.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Playfair Display';
+  src: url('../../fonts/playfair-500.woff2') format('woff2');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
 
 :root {
   /* Colors */
@@ -29,9 +95,7 @@
   --color-accent-blue-dark: #0077ed;
 
   /* Typography */
-  --font-family-base:
-    -apple-system, BlinkMacSystemFont, 'Helvetica Neue', 'Segoe UI', Roboto,
-    sans-serif;
+  --font-family-base: 'Inter', 'Helvetica Neue', 'Segoe UI', Roboto, sans-serif;
   --font-family-alt: 'Montserrat', sans-serif;
 
   /* Layout */
