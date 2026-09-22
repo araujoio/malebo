@@ -4,6 +4,7 @@
   width: 100%;
   box-sizing: border-box;
   font-family: var(--font-family-base);
+  margin-bottom: 20px;
 }
 
 .bento-header {
@@ -109,7 +110,7 @@
 .image-bg-card .bento-icon-center {
   position: relative;
   flex: 1;
-  width: calc(100% + 60px); /* bleed past 30px desktop padding */
+  width: calc(100% + 60px);
   margin-left: -30px;
   margin-right: -30px;
   margin-bottom: -30px;
