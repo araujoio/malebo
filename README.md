@@ -13,7 +13,7 @@ Built with a focus on simplicity and performance:
 ## [Preview](https://malebo.online)
 
 <p align="center">
-  <img src="./docs/assets/fullpage.png" width="100%" alt="Malebo Store Preview">
+  <img src="./docs/assets/fullpagev2.png" width="100%" alt="Malebo Store Preview">
 </p>
 
 ## About the Project
