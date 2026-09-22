@@ -1,6 +1,7 @@
 /* Section Container */
 .brand-manifesto {
   width: 100%;
+  padding-top: 40px;
   margin-bottom: 40px;
 }
 
@@ -111,6 +112,10 @@
 
 /* Mobile adjustments (phones) */
 @media (max-width: 767px) {
+  .brand-manifesto {
+    padding-top: 20px;
+  }
+
   .manifesto-header h2 {
     font-size: 28px;
   }
