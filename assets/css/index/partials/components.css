@@ -1,6 +1,6 @@
 /* Buttons */
 .btn-primary,
-.btn-blue,
+.btn-black,
 .btn-link,
 .btn-link-light {
   display: inline-block;
@@ -25,16 +25,19 @@
   background-color: #e0e0e0;
 }
 
-.btn-blue {
-  background-color: #16a34a;
+.btn-black {
+  background-color: #000;
   color: var(--color-white);
-  padding: 8px 16px;
+  padding: 10px 24px;
   border-radius: 20px;
-  font-size: 12px;
+  font-size: 11px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
 }
 
-.btn-blue:hover {
-  background-color: #15803d;
+.btn-black:hover {
+  background-color: #333;
 }
 
 .btn-link {
