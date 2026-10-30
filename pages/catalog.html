@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Malebo | Glasses Catalog</title>
+<link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+<nav>
+  <a href="https://malebo.online" aria-label="Malebo"><svg viewBox="0 0 28 26" width="30" height="28"><path d="M1 25V1h6l7 13L21 1h6v24h-5.5V10L14 24 6.500 10v15z" fill="currentColor"/></svg></a>
+  <ul><li><a href="https://malebo.online">Home</a></li><li><a href="https://malebo.online/#catalog">Smart Glasses</a></li><li><a href="#">Tailoring</a></li></ul>
+  <div class="ic">
+    <a href="#catalog" aria-label="Search" onclick="setTimeout(()=>document.getElementById('q').focus(),400)"><svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="M20 20l-4-4"/></svg></a>
+    <a href="#" aria-label="Account"><svg viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4.500 3.500-7 8-7s8 2.500 8 7"/></svg></a>
+    <a href="#" class="cartw" aria-label="Cart"><svg viewBox="0 0 24 24"><path d="M5 8h14l-1 12H6z"/><path d="M9 8V6a3 3 0 016 0v2"/></svg><b id="count">0</b></a>
+  </div>
+</nav>
+<div class="top">Shop online and get free shipping on orders over $500.</div>
+<header class="hero">
+  <small>MALEBO EYEWEAR</small>
+  <h1>Clear vision, crafted with timeless elegance.</h1>
+  <p>Designed to frame your world. For those who see beyond.</p>
+  <a class="btn" href="#catalog">VIEW ALL NEW RELEASES</a>
+</header>
+<section class="cat" id="catalog">
+  <h2>Featured.</h2>
+  <div class="toolbar">
+    <strong id="total"></strong>
+    <div class="tools">
+      <input id="q" type="search" placeholder="Search eyewear...">
+      <select id="ord"><option value="pop">Best sellers</option><option value="asc">Price: Low to High</option><option value="desc">Price: High to Low</option></select>
+    </div>
+  </div>
+  <div class="layout">
+    <aside>
+      <div><h3>Type</h3>
+        <label><input type="checkbox" name="tipo" value="Sunglasses"> Sunglasses</label>
+        <label><input type="checkbox" name="tipo" value="Eyeglasses"> Eyeglasses</label></div>
+      <div><h3>Shape</h3>
+        <label><input type="checkbox" name="forma" value="Aviator"> Aviator</label>
+        <label><input type="checkbox" name="forma" value="Round"> Round</label>
+        <label><input type="checkbox" name="forma" value="Square"> Square</label>
+        <label><input type="checkbox" name="forma" value="Cat-Eye"> Cat-Eye</label></div>
+      <div><h3>Price up to <span id="pv">$400</span></h3><input type="range" id="preco" min="150" max="400" step="10" value="400"></div>
+    </aside>
+    <div class="grid" id="grid"></div>
+  </div>
+</section>
+<footer>
+  <div class="fcols">
+    <div><h5>Support</h5><a href="#">Contact Us</a><a href="#">Track Order</a><a href="#">Delivery &amp; Returns</a><a href="#">FAQ</a></div>
+    <div><h5>Malebo</h5><a href="#">Our Mission</a><a href="#">Our Technology</a><a href="#">Careers</a><a href="#">Reviews</a></div>
+  </div>
+  <div class="join"><h3>JOIN US</h3><p>At Malebo, we develop high-performance audio eyewear ensuring both efficacy and sensoriality.</p>
+    <input type="email" placeholder="EMAIL"><button class="sub" type="button">SUBSCRIBE</button></div>
+  <div class="word">MALEBO</div>
+  <div class="copy">Copyright © 2026 Malebo Inc. All rights reserved. Malebo Eyewear.</div>
+</footer>
+<script src="../script.js" defer></script>
+</body>
+</html>
