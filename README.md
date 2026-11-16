@@ -1,16 +1,8 @@
-# Malebo Store
+# Malebo
 
-Malebo is a premium e-commerce store offering a collection of beautifully curated luxury items that you can wear, style, and stand out with. Start here to elevate your elegance with our premium suits and fine glasses, building your own signature look.
+A premium luxury eyewear boutique offering an exclusive collection of handcrafted designer frames, sunglasses, and precision-crafted smart glasses. Elegant, minimalist, and designed for timeless aesthetics and everyday sophistication.
 
-## Tech Stack
-
-Built with a focus on simplicity and performance:
-
-- HTML5
-- CSS3
-- JavaScript
-
-## [Preview](https://malebo.online)
+You can visit [Malebo](https://malebo.online)
 
 <p align="center">
   <img
@@ -20,14 +12,18 @@ Built with a focus on simplicity and performance:
   />
 </p>
 
-## About the Project
+## Documentation
 
-This project includes detailed guides explaining how it is built, structured, and set up locally:
+Read the [Quickstart Guide](docs/translations/en/00-quickstart/README.md) to learn how Malebo works, explore its architecture, and run the project locally.
 
-- [Project Architecture](./docs/architecture.md) - High-level overview of the technologies, file structure, and project design.
-- [Assets System](./docs/assets-system.md) - Deep dive into how CSS is structured with partials and how images are managed.
-- [Local Setup](./docs/local-setup.md) - Step-by-step instructions for getting the project running locally and setting up the development environment.
+## You can also read the full documentation in your preferred language.
+
+[Portuguese](docs/translations/pt/00-quickstart/README.md) | [Spanish](docs/translations/es/00-quickstart/README.md)
+
+## Code of Conduct
+
+Please read the [Code Of Conduct](/CODE_OF_CONDUCT.md).
 
 ## License
 
-Licensed under the [MIT License](./LICENSE).
+Licensed under the [MIT License](/LICENSE.md).
