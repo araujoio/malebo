@@ -18,9 +18,11 @@ Follow these steps to set up the Malebo Store locally on your machine.
 
 2. **Install development dependencies:**
    This project uses `npm` to manage code formatting tools.
+
    ```bash
    npm install
    ```
+
    _Note: This will also automatically prepare `husky` for git hooks._
 
 ## Running the Project
@@ -29,12 +31,13 @@ Because the project relies on vanilla HTML/CSS/JS, no build step is required to 
 
 - **Option A (VS Code):** Open the project in VS Code, right-click `index.html`, and select "Open with Live Server".
 - **Option B (Terminal):** Run a local static server from the root directory:
+
   ```bash
   npx serve .
   ```
 
 ## Development Commands
 
-- `npm run format`: Runs Prettier and ESLint to automatically format your code and fix linting errors.
+- `npm run format`: Runs Biome to automatically format your code.
 
 The project is protected by `lint-staged` and `husky`, meaning any code you commit will automatically be formatted.

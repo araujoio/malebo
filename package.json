@@ -2,22 +2,17 @@
   "private": true,
   "type": "commonjs",
   "scripts": {
-    "format": "prettier --write . && eslint --fix .",
+    "format": "biome format --write .",
     "prepare": "husky"
   },
   "devDependencies": {
+    "@biomejs/biome": "2.6.8",
     "eslint": "^10.11.0",
-    "eslint-config-prettier": "^10.1.8",
-    "eslint-plugin-prettier": "^5.5.6",
     "husky": "^9.1.7",
-    "lint-staged": "^17.5.1",
-    "prettier": "^3.9.8"
+    "lint-staged": "^17.5.1"
   },
   "lint-staged": {
-    "*.{html,css,json,md}": "prettier --write",
-    "*.js": [
-      "eslint --fix",
-      "prettier --write"
-    ]
+    "*.{html,css,json,md}": "biome format --write --no-errors-on-unmatched",
+    "*.js": ["eslint --fix", "biome format --write --no-errors-on-unmatched"]
   }
 }

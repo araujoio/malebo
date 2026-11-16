@@ -24,5 +24,5 @@ Each page imports its respective styles from the `assets/css/` directory and uti
 While the code executed in the browser is completely vanilla, the development environment uses modern tooling to ensure code quality:
 
 - **ESLint**: For JavaScript linting.
-- **Prettier**: For code formatting across HTML, CSS, JSON, and Markdown.
+- **Biome**: For code formatting across HTML, CSS, JSON, and Markdown.
 - **Husky & lint-staged**: Pre-commit hooks that enforce formatting before code can be pushed to the repository.

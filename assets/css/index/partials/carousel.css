@@ -73,7 +73,7 @@
 
 .product-img {
   width: 100%;
-  aspect-ratio: 3/4;
+  aspect-ratio: 3 / 4;
   object-fit: contain;
   background-color: var(--color-bg-secondary);
   display: block;
