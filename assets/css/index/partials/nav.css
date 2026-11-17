@@ -1,21 +1,26 @@
 .navbar {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
   align-items: center;
   width: 100%;
-  background-color: rgba(255, 255, 255, 0.85);
-  backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px);
+  background-color: #ffffff;
   position: fixed;
   top: 0;
   left: 0;
   z-index: 1000;
   height: var(--nav-height);
-  padding: 0 20px;
+  padding: 0 40px;
   font-size: 11px;
   font-weight: 500;
   color: #000;
   box-sizing: border-box;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    padding: 0 20px;
+  }
 }
 
 .alert-banner {
@@ -27,12 +32,13 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: var(--color-accent-blue);
+  background-color: var(--color-accent-red);
   color: var(--color-white);
   text-align: center;
   padding: 0 20px;
-  font-size: 12px;
-  font-weight: 400;
+  font-size: 13px;
+  font-weight: 500;
+  letter-spacing: 0.5px;
   z-index: 999;
   box-sizing: border-box;
 }
@@ -40,6 +46,25 @@
 .alert-banner a {
   color: var(--color-white);
   text-decoration: underline;
+}
+
+.nav-brand {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
+
+.nav-brand img,
+.nav-links img {
+  height: 48px;
+  width: auto;
+  display: block;
+  transition: transform 0.2s ease;
+}
+
+.nav-brand:hover img {
+  transform: scale(1.02);
 }
 
 .nav-links {
@@ -50,12 +75,6 @@
   gap: 30px;
   margin: 0;
   padding: 0;
-}
-
-.nav-links img {
-  height: 55px;
-  width: auto;
-  display: block;
 }
 
 .nav-links a {

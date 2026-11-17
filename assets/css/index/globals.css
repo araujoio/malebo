@@ -75,7 +75,7 @@
 
 :root {
   /* Colors */
-  --color-black: #2a2825; /* Warm dark gray/black */
+  --color-black: #000; /* Warm dark gray/black */
   --color-white: #faf9f6; /* Off-white / Cream */
 
   /* Text Colors */
@@ -93,14 +93,15 @@
   --color-accent-blue: #0071e3;
   --color-accent-blue-light: #2997ff;
   --color-accent-blue-dark: #0077ed;
+  --color-accent-red: #fa010f;
 
   /* Typography */
   --font-family-base: "Inter", "Helvetica Neue", "Segoe UI", Roboto, sans-serif;
   --font-family-alt: "Montserrat", sans-serif;
 
   /* Layout */
-  --nav-height: 42px;
-  --banner-height: 32px;
+  --nav-height: 70px;
+  --banner-height: 44px;
 }
 
 * {
@@ -113,5 +114,5 @@ body {
   font-family: var(--font-family-base);
   background-color: var(--color-bg-primary);
   color: var(--color-text-primary);
-  padding-top: 74px; /* Space for the fixed header (nav + banner) */
+  padding-top: 114px; /* Space for fixed header (70px navbar + 44px banner) */
 }
