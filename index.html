@@ -10,10 +10,39 @@
   </head>
   <body>
     <header>
+      <div class="sub-banner">
+        <span>
+          Novidade | Compre online óculos com lentes de grau que nós enviamos
+          até sua casa
+        </span>
+        <a href="#" class="sub-banner-link">SERVIÇOS ONLINE E NA LOJA</a>
+      </div>
       <nav class="navbar">
         <a href="index.html" class="nav-brand">
           <img src="assets/imgs/malebo-brand.png" alt="Malebo" />
         </a>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="pages/glasses.html">Vitrine</a></li>
+        </ul>
+        <div class="nav-actions">
+          <form class="nav-search" role="search">
+            <input
+              type="text"
+              placeholder="O que você procura?"
+              aria-label="Buscar produtos"
+            />
+            <button type="submit" aria-label="Buscar">
+              <i data-lucide="search"></i>
+            </button>
+          </form>
+          <div class="nav-icons">
+            <a href="#" aria-label="Favoritos"><i data-lucide="heart"></i></a>
+            <a href="#" aria-label="Carrinho de compras"
+              ><i data-lucide="shopping-cart"></i></a
+            >
+          </div>
+        </div>
       </nav>
       <div class="alert-banner">
         Compre online e ganhe frete grátis em pedidos acima de R$ 500.
@@ -116,86 +145,97 @@
         </div>
       </section>
 
-      <!-- Bento Grid Section -->
-      <section class="bento-section">
-        <div class="bento-header">
-          <h2>Feito para quem reconhece a diferença.</h2>
-        </div>
-        <div class="bento-grid">
+      <!-- Promo Bento Grid Section -->
+      <section class="promo-bento-section">
+        <div class="promo-bento-grid">
           <!-- Card 1 -->
-          <div class="bento-card image-bg-card">
-            <p class="bento-eyebrow">Materiais</p>
-            <h3 class="bento-title">Acetato italiano. Titânio japonês.</h3>
-            <div class="bento-icon-center">
-              <img
-                src="assets/imgs/bento-grid/card-01.png"
-                alt="Materiais Premium"
-              />
-            </div>
+          <div class="promo-card">
+            <img
+              src="assets/imgs/bento-grid/bento-02.jpg"
+              alt="Mais Vendidos"
+            />
+            <h3 class="promo-title">MAIS VENDIDOS</h3>
           </div>
+
           <!-- Card 2 -->
-          <div class="bento-card">
-            <p class="bento-eyebrow">Lentes</p>
-            <h3 class="bento-title">Veja o mundo sob uma nova perspectiva.</h3>
-            <div class="bento-icon-center">
-              <img src="assets/imgs/bento-grid/card-02.png" alt="Lentes" />
-            </div>
+          <div class="promo-card">
+            <img src="assets/imgs/bento-grid/bento-01.jpg" alt="Óculos de IA" />
+            <h3 class="promo-title">ÓCULOS DE IA</h3>
           </div>
+
           <!-- Card 3 -->
-          <div class="bento-card image-bg-card">
-            <p class="bento-eyebrow">Exclusividade</p>
-            <h3 class="bento-title">
-              Edições limitadas. Nunca em produção em massa.
-            </h3>
-            <div class="bento-icon-center">
-              <img
-                src="assets/imgs/bento-grid/card-03.png"
-                alt="Armações Exclusivas"
-              />
-            </div>
-          </div>
-          <!-- Card 4 -->
-          <div class="bento-card image-bg-card">
-            <p class="bento-eyebrow">Ajuste Perfeito</p>
-            <h3 class="bento-title">
-              Projetado para se ajustar como uma segunda pele.
-            </h3>
-            <div class="bento-icon-center">
-              <img src="assets/imgs/bento-grid/card-04.png" alt="Ajuste" />
-            </div>
+          <div class="promo-card">
+            <img src="assets/imgs/bento-grid/bento-03.jpg" alt="A$AP Rocky" />
+            <h3 class="promo-title">A$AP ROCKY</h3>
           </div>
         </div>
       </section>
 
-      <!-- Banner Card Section -->
-      <section class="banner-card-section">
-        <div class="banner-card">
-          <video
-            src="assets/videos/v1.mp4"
-            class="banner-video"
-            autoplay
-            loop
-            muted
-            playsinline
-          ></video>
+      <!-- Second Carousel Section -->
+      <section class="product-slider-section">
+        <div class="carousel-header">
+          <h2>Mais Vendidos.</h2>
+          <a href="pages/glasses.html" class="carousel-link"
+            >Ver toda a coleção &gt;</a
+          >
         </div>
-      </section>
-
-      <!-- Logos Section -->
-      <section class="logos-section">
-        <div class="trust-logos">
-          <div class="logos-grid">
-            <div class="logo-box">
-              <img src="assets/imgs/sponsors/panda.png" alt="Panda Logo" />
+        <div class="carousel-wrapper">
+          <div class="product-slider">
+            <!-- Card 5 -->
+            <div class="product-card">
+              <div class="product-image-container">
+                <img
+                  class="product-img"
+                  src="assets/imgs/highlights/glasses-05.png"
+                  alt="Malebo Caravan Gold"
+                />
+              </div>
+              <div class="product-info">
+                <h3 class="product-title">Caravan Gold</h3>
+                <p class="product-price">R$ 349,00</p>
+              </div>
             </div>
-            <div class="logo-box">
-              <img src="assets/imgs/sponsors/metrix.png" alt="Metrix Logo" />
+            <!-- Card 6 -->
+            <div class="product-card">
+              <div class="product-image-container">
+                <img
+                  class="product-img"
+                  src="assets/imgs/highlights/glasses-06.png"
+                  alt="Malebo Wayfarer Havana"
+                />
+              </div>
+              <div class="product-info">
+                <h3 class="product-title">Wayfarer Havana</h3>
+                <p class="product-price">R$ 319,00</p>
+              </div>
             </div>
-            <div class="logo-box">
-              <img src="assets/imgs/sponsors/ding.png" alt="Ding Logo" />
+            <!-- Card 7 -->
+            <div class="product-card">
+              <div class="product-image-container">
+                <img
+                  class="product-img"
+                  src="assets/imgs/highlights/glasses-07.png"
+                  alt="Malebo Hexagonal Rose"
+                />
+              </div>
+              <div class="product-info">
+                <h3 class="product-title">Hexagonal Rose</h3>
+                <p class="product-price">R$ 289,00</p>
+              </div>
             </div>
-            <div class="logo-box">
-              <img src="assets/imgs/sponsors/chirp.png" alt="Chirp Logo" />
+            <!-- Card 8 -->
+            <div class="product-card">
+              <div class="product-image-container">
+                <img
+                  class="product-img"
+                  src="assets/imgs/highlights/glasses-08.png"
+                  alt="Malebo Rimless Stealth"
+                />
+              </div>
+              <div class="product-info">
+                <h3 class="product-title">Rimless Stealth</h3>
+                <p class="product-price">R$ 359,00</p>
+              </div>
             </div>
           </div>
         </div>
