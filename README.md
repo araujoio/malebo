@@ -4,14 +4,6 @@ A premium luxury eyewear boutique offering an exclusive collection of handcrafte
 
 You can visit [Malebo](https://malebo.online)
 
-<p align="center">
-  <img
-    src="./docs/assets/fullpagev2.png"
-    width="100%"
-    alt="Malebo Store Preview"
-  />
-</p>
-
 ## Documentation
 
 Read the [Quickstart Guide](docs/translations/en/00-quickstart/README.md) to learn how Malebo works, explore its architecture, and run the project locally.
