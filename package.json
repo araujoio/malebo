@@ -7,12 +7,10 @@
   },
   "devDependencies": {
     "@biomejs/biome": "2.6.8",
-    "eslint": "^10.11.0",
     "husky": "^9.1.7",
     "lint-staged": "^17.5.1"
   },
   "lint-staged": {
-    "*.{html,css,json,md}": "biome format --write --no-errors-on-unmatched",
-    "*.js": ["eslint --fix", "biome format --write --no-errors-on-unmatched"]
+    "*.{html,css,js,json,md}": "biome format --write --no-errors-on-unmatched"
   }
 }
